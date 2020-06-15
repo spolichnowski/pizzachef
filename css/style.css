@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur:500');
+@import url('https://fonts.googleapis.com/css?family=Allura');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+.baner img {
+  width: 100%;
+}
+
+.color-bg {
+  padding: 40px 0;
+}
+
+.btn-primary {
+  background-color: #DBA24A !important;
+  border: none !important;
+}
+
+.btn-primary:focus {
+  color: none !important;
+}
+
+.flag a img {
+  width: 30px;
+  padding-bottom: 5px;
+}
+
+.display-none {
+  visibility: visible !important;
+}
+
+.display-none2 {
+  visibility: hidden !important;
+}
+
+.container-margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.expandedImg {
+  width: 60%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px black;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+}
+
+.column img {
+    cursor: pointer;
+    width: 250px;
+    height: 160px;
+    box-shadow: 0 0 10px black;
+    background-position: fixed;
+}
+
+.column img:hover {
+    width: 255px;
+    height: 162px;
+    transition-duration: 0.5s;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container1 {
+    position: relative;
+    display: none;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.right-img {
+  width: 400px;
+  box-shadow: 0 0 1px black;
+  margin: 0 0 15px 15px;
+  float: right;
+}
+
+.text-shadow {
+  text-shadow: 5px 2px 5px black;
+}
+
+.header-position {
+  padding: 16vh 0 0 5%;
+}
+
+.comment-box {
+  background-color: #1f1f1f;
+  margin: 4px;
+  padding: 40px 50px;
+  color: #DBA24A !important;
+}
+
+.box {
+  font-size: 45px;
+  text-shadow: 0 0 20px #1f1f1f;
+  padding-bottom: 10px;
+  border-bottom: solid 1px white;
+}
+
+.glyphicon {
+  top: 30vh !important;
+  color: white;
+  font-size: 40px;
+  text-shadow: 0 0 30px #1f1f1f;
+}
+
+footer {
+  background-color: rgba(0,0,0,0.85) !important;
+}
+
+hr {
+  border: 1px black solid !important;
+  width: 300px;
+}
+
+.h2-border {
+  border-bottom: 1px solid black;
+  padding-bottom: 12px;
+  margin-bottom: 6px;
+}
+
+.parallax {
+  background-image: url('../images/base.jpg');
+  height: 200px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url('../images/base1.jpg');
+  height: 200px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.citation {
+  padding: 29vh 0 0 20px;
+  font-family: 'Titillium Web', sans-serif !important;
+  font-size: 30px !important;
+}
+
+.hr {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.hr img {
+  width: 45px;
+  margin: 0 15px;
+}
+
+.articles-image {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.article-image {
+  width: 300px;
+  box-shadow: 0 0 1px black;
+  margin: 0 0 15px 15px;
+  float: right;
+}
+
+.media {
+  margin: 10px 50px;
+  padding: 25px 10px;
+  box-shadow: 0 0 1px grey;
+  color: white;
+  background-color: #1f1f1f;
+}
+
+.background-header {
+  background-image: url('../images/pizzabg.jpg');
+  top: 0;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  background-attachment: fixed;
+}
+
+.background-header2 {
+  background-image: url('../images/pizza-tlo.jpg');
+  width: 100%;
+  height: 25vh;
+  margin: 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-style {
+  letter-spacing: 1px !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3 !important;
+    text-align: justify;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify !important;
+    line-height: 1.6;
+}
+
+h4 {
+    text-indent: 30px;
+}
+
+a {
+  color: inherit !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.h1 {
+  font-size: 34px !important;
+  padding: 10px 15px 10px 0 !important;
+  font-family:'Titillium Web', sans-serif !important;
+  letter-spacing: 2px;
+}
+
+div {
+    background-color: rgba(rgb(226, 226, 226), green, blue, alpha);
+}
+
+hr {
+    border: 0;
+    height: 1.2px;
+    background: linear-gradient(to right, #8c8c8c, #f0f0f0);
+}
+
+nav {
+    color: white;
+    background-color: rgba(0,0,0,0.85)  !important;
+    position: sticky !important;
+    font-family:'Titillium Web', sans-serif !important;
+}
+
+.navbar {
+  margin: 0 !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.section3 {
+    background-color: #1f1f1f !important;
+}
+
+.section2 {
+    height: 40vh;
+    width: 100%;
+}
+
+.section4 {
+    display: block;
+    height: 100%;
+    padding: 25vh 0;
+}
+
+.background-photo{
+    background-image: url(../media/step.jpg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.blog-img {
+    width: 300px;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.shadow p{
+    text-shadow: 0 0 40px black;
+}
+
+.background-introduction{
+    background-color: none;
+    padding: 0px;
+    height: 75vh;
+}
+
+.piter{
+    box-shadow: 0 0 3px black;
+    border: solid 5px #1f1f1f;
+    width: 100%;
+    padding: 0;
+}
+
+.i{
+    margin: 10px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: #DBA24A !important;
+    font-size: 25px;
+}
+
+.icon-bar{
+    background-color: #6c757d;
+}
+
+.ml-auto-social {
+    margin-left: auto!important;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+@media screen and (max-width: 768px){
+  .header-position2 {
+    padding: 10vh 0 0 5%;
+  }
+  .display-none {
+    visibility: hidden !important;
+  }
+
+  .display-none2 {
+    visibility: visible !important;
+  }
+
+    .padding2 {
+        padding: 50px 0;
+    }
+
+    .display{
+        display: none !important;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: .8rem;
+        padding-left: .8rem;
+    }
+
+    .ml-auto-social {
+        margin-left: 0 !important;
+    }
+
+    .citation .row span{
+        font-size: 38px;
+        text-shadow: 0 0 30px black;
+    }
+
+    .section3 {
+        display: block;
+        height: 60vh;
+    }
+
+    .column {
+        float: left;
+        width: 40%;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+  .background-introduction{
+      height: 120vh;
+  }
+
+  .navbar {
+    margin: 0 0 70px 0 !important;
+  }
+
+  .right-img {
+    text-align: center;
+    float: none;
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+
+  .article-image {
+    text-align: center;
+    float: none;
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+
+  .container-margin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .margin-mobile {
+    margin: 30px 0;
+  }
+
+  .box {
+    font-size: 28px;
+    font-family: 'Titillium Web', sans-serif !important;
+    text-shadow: 0 0 10px #1f1f1f;
+    padding: 0 0 10px 0 !important;
+    border-bottom: solid 1px white;
+  }
+
+  .column {
+      float: left;
+      width: 90%;
+      padding: 15px;
+  }
+
+  .section3 {
+    height: 160vh;
+  }
+}
+
+@media screen and (max-width: 350px) {
+}
